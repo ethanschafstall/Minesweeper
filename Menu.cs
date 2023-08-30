@@ -62,7 +62,7 @@ namespace t_P_Prog_Schafstall_Ethan_Demineur
         /// </summary>
         public void ClearScreen()
         {
-            for (int i = 12; i < 21; i++)
+            for (int i = 12; i < 20; i++)
             {
                 Console.SetCursorPosition(0, i);
                 Console.Write(new String(' ', 200));

@@ -781,16 +781,16 @@ namespace t_P_Prog_Schafstall_Ethan_Demineur
                         myMenus[i].options = new string[] { GetGameText(0)[0], GetGameText(0)[1], GetGameText(0)[2], GetGameText(0)[3] };
                         break;
                     case 1:
-                        myMenus[i].prompt = GetGameText(0)[3];
-                        myMenus[i].options = new string[] { GetGameText(0)[4] };
+                        myMenus[i].prompt = GetGameText(0)[4];
+                        myMenus[i].options = new string[] { GetGameText(0)[5] };
                         break;
                     case 2:
-                        myMenus[i].prompt = GetGameText(0)[5];
-                        myMenus[i].options = new string[] { GetGameText(0)[6], GetGameText(0)[7], GetGameText(0)[8], GetGameText(0)[9], GetGameText(0)[10] };
+                        myMenus[i].prompt = GetGameText(0)[6];
+                        myMenus[i].options = new string[] { GetGameText(0)[7], GetGameText(0)[8], GetGameText(0)[9], GetGameText(0)[10], GetGameText(0)[11] };
                         break;
                     case 3:
-                        myMenus[i].prompt = GetGameText(0)[11];
-                        myMenus[i].options = new string[] { GetGameText(0)[12], GetGameText(0)[13], GetGameText(0)[14], GetGameText(0)[15] };
+                        myMenus[i].prompt = GetGameText(0)[12];
+                        myMenus[i].options = new string[] { GetGameText(0)[13], GetGameText(0)[14], GetGameText(0)[15], GetGameText(0)[16] };
                         break;
                 }
             }
